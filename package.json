@@ -1,0 +1,34 @@
+{
+  "name": "@ig3/dedent",
+  "version": "1.0.0",
+  "description": "Remove excess indentation from multi-line strings.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ig3/dedent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ig3/dedent/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && c8 multi-tape test/*.js"
+  },
+  "keywords": [
+    "dedent",
+    "remove indentation",
+    "template literals",
+    "multi-line strings"
+  ],
+  "author": "Ian Goodacre",
+  "license": "ISC",
+  "devDependencies": {
+    "@ig3/eslint-config-entrain": "^4.0.3",
+    "@ig3/test": "^0.0.10",
+    "c8": "^10.1.2",
+    "eslint": "^9.8.0",
+    "multi-tape": "^1.7.1"
+  },
+  "files": [
+    "index.js"
+  ]
+}
